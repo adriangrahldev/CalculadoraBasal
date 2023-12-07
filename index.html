@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Basal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculadora" id="calculadora">
+            <h1>Hidratración Basal</h1>
+            <p>Completa los datos</p>
+            <input type="number" placeholder="Ingrese el peso en Kg">
+            <button id="btn-calcular">Calcular</button>
+            <div class="resultado">
+                <p class="mantenimiento">70 cc/hr</p>
+                <p class="mantenimiento2">m+m/2 105 cc/hr</p>
+            </div>
+        </div>
+        <!-- <button id="btn-detalle">i</button> -->
+        <div class="detalle" id="detalle">
+            <h1>¿Cómo se calcula?</h1>
+            <ul>
+                <li>De 0 a 10k, se calcula 100cc por cada kilo.</li>
+                <li>Se suma 50cc por cada kilo de peso por arriba de 10kg, hasta 20kg</li>
+                <li>De 20kg para arriba, se suman 20cc por cada kilo adicional</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- <script src="./script.js" defer></script> -->
+</body>
+
+</html>
