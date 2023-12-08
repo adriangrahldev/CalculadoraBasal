@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  width: 70%;
+  width: 75%;
   height: 80vh;
   margin: auto;
   margin-top: 5%;
@@ -84,18 +84,23 @@ body {
 }
 
 .calculadora .resultado{
-    width: 60%;
+    width: 80%;
     text-align: center;
 }
 .calculadora .resultado p{
     font-size: 23px;
-    font-weight: 900;
+    font-weight: bold;
     margin: 5px 0 0 0;
-    color: rgb(0, 134, 87);
+    color: #47c498;
 } 
 
+.calculadora .resultado p span{
+    color: rgb(0, 134, 87);
+    font-weight: 900;
+}
+
 .detalle {
-    background-color: rgb(116, 235, 194);
+    background-color: #74ebc2;
     border-radius: 0px 13px 13px 0px;
     display: flex;
     flex-direction: column;
